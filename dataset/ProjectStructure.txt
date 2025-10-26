@@ -1,0 +1,11 @@
+What is the software application or feature?
+A Movie recommendation system in the command line
+Who is it intended for?
+For Me as my first Project and for my Collegues at Boot.dev
+What problem does the software solve?
+It recommends Movies of all genres to people that need help to find something to watch
+How is it going to Work?
+I got a dataset from kaggle where i will filter all genres of movie and recommend the best movies given by Reviews/Stars 
+What are the main concepts that are involved and how are they related?
+The main concepts are Pandas to get the dataset in shape and Python to write the code for the Recommandation and the whole CLI
+
