@@ -15,7 +15,7 @@ os.listdir("/home/philipp/Projects/MovieRec/dataset/tmdb-movie-metadata")
 movies = pd.read_csv("/home/philipp/Projects/MovieRec/dataset/tmdb-movie-metadata/tmdb_5000_movies.csv")
 
 #Filter for Old Movies
-def show_old(user_input):
+def show_old():
     old_m = movies.sort_values(by="release_date")
     old = old_m.set_index("title")
     oldest_movies = old.release_date.head(5)

@@ -2,7 +2,7 @@
 import sys
 import pyfiglet
 sys.path.append('/home/philipp/Projects/MovieRec/dataset')
-import dataset
+from dataset import show_old, show_new, getting_description, getting_genres, best_in_slot, runtime_movie
 
 
 def welcome():
